@@ -1,4 +1,4 @@
-sdfjwioe jqwjdhq bjdhw 
+sdfjwioe jqwjdhq bjdhw
 
 testing
-full stack  corse 
+full stack corse
