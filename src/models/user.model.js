@@ -102,11 +102,15 @@ userSchema.methods.generateRefreshToken = function () {
         username: this.username,
         fullName: this.fullName,
     },
-    process.env.ACCESS_TOKEN_SECRET,
+    process.env.REFRESH_TOKEN_SECRET,
     {
-      expiresIn: process.env.ACCESS_TOKEN_EXPIRATION,
+      expiresIn: process.env.REFRESH_TOKEN_EXPIRATION,
     }
   );
 };
+
+
+
+
 
 export const User = mongoose.model("User", userSchema);
